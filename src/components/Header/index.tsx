@@ -1,4 +1,5 @@
 import { Link } from "react-router"
+import { BsCart } from 'react-icons/bs'
 import { MainDiv } from "../MainDiv"
 
 export function Header() {
@@ -16,8 +17,8 @@ export function Header() {
                             </Link>
                         </li>
                         <li>
-                            <Link to='/carrinho'>
-                                <span>Carrinho</span>
+                            <Link to='/carrinho' title="Clique para ver seu carrinho">
+                                <BsCart size={24}></BsCart>
                             </Link>
                         </li>
                     </ul>
