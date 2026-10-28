@@ -17,8 +17,9 @@ export function Header() {
                             </Link>
                         </li>
                         <li>
-                            <Link to='/carrinho' title="Clique para ver seu carrinho">
+                            <Link to='/carrinho' className="relative" title="Clique para ver seu carrinho">
                                 <BsCart size={24}></BsCart>
+                                <span className="absolute -top-2 left-4 bg-blue-500 text-white text-xs rounded-full h-5 w-5 flex items-center justify-center">2</span>
                             </Link>
                         </li>
                     </ul>
